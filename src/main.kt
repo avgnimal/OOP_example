@@ -1,7 +1,7 @@
 fun main() {
-    var barsik = Dog()
-    barsik.voice() //не правильная печать
-    barsik.color()
+    var dog = Dog("Barsik", 32)
+    dog.voice() //не правильная печать
+    dog.color()
 
     // Как сделать имя для собаки?
 }
